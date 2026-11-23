@@ -27,8 +27,8 @@ const TREND_RETURN = 0.006;
 const SHORT_RETURN = 0.001;
 /** 240-minute return below which the trend is judged reversed: -0.2%. */
 const REVERSAL_RETURN = -0.002;
-/** Minutes of closes needed before any decision (EMA window + margin). */
-const HISTORY_BARS = 240;
+/** Minutes of closes needed before any decision (180-minute return + margin). */
+const HISTORY_BARS = 182;
 /** Take-profit, share above the fill price: +3%. */
 const TAKE_PROFIT = 0.03;
 /** Trailing stop, share below the best close since entry: 2%. */
